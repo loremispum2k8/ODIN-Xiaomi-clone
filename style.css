@@ -1,0 +1,30 @@
+/*
+    CODE FOR THE HOVER MENU - There will be 5 menus, each with exact label and menu container height. Width of the label may vary. Width of the container will remain the same.
+
+input{
+    display: none;
+}
+.hidden{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    display: none;
+    z-index: 2;
+    position: absolute;
+    margin-left: 250px;
+}   
+
+label:hover + input:checked ~ .hidden{
+    display: block;
+}
+
+label{
+    cursor: pointer;
+    font-size: 30px;
+    padding: 0 300px 300px 0;
+    background-color: green;
+    z-index: 10;
+} 
+    
+*/
+
