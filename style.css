@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
 }
 body{
     height: 10000px;
@@ -14,58 +15,84 @@ a{
 
 /* MENU */
 
+
+.xiaomi-logo{
+    width: 32px;
+    cursor: pointer;
+}
 .menu-container{
     display: flex;
     align-items: center;
-    justify-content: center;
-    width: 100%;
+    justify-content: space-between;
+    padding: 0px 240px;
+    max-width: 100%;
     height: 58px;
     box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.045) ;
-}
-.inner-menu-container{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 1434px;
-    width: 100%;
-    height: 100%;
 }
 .left-menu, .right-menu{
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-around;
     gap: 50px;
+
 }
-.left-menu div{
-    height: 58px;
-    position: relative;
-    width: 94px;
+.drop-down{
+    display: none;
+    width: 100%;
+    height: 430px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 58px;
+    z-index: 999;
+    background-color: red;
+}
+.menu-blur{
+    display: none;
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 488px;
+    z-index: 999;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    background-color: rgba(139, 139, 139, 0.35);
+}
+.left-menu-branch:hover ~ .menu-blur{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: -20px;
-}
-.left-menu div:hover{
-    border-bottom: 3px solid #fd4900;
-    padding-top: 3px;
-    color: #fd4900;
 }
 
-.left-menu div a{
-    position: absolute;
+.branch-one:hover .drop-down-one{
+    display: flex;
 }
-.xiaomi-logo{
-    width: 32px;
+.branch-two:hover .drop-down-two{
+    display: flex;
 }
+.branch-three:hover .drop-down-three{
+    display: flex;
+}
+.branch-four:hover .drop-down-four{
+    display: flex;
+}
+.branch-five:hover .drop-down-five{
+    display: flex;
+}
+
+
+
+
+
 .fa-magnifying-glass, .fa-user{
     font-size: 20px;
     cursor: pointer;
 }
-.menu{
-    cursor: pointer;
-}
-input{
+
+
+
+/*input{
     display:none;
 }
 
