@@ -24,7 +24,54 @@ label{
     padding: 0 300px 300px 0;
     background-color: green;
     z-index: 10;
-} 
+}
+    
     
 */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+body{
+    height: 10000px;
+}
+a{
+    text-decoration: none;
+    color: initial;
+}
+
+/* MENU */
+
+.menu-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 58px;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.034) ;
+}
+.inner-menu-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1434px;
+    width: 100%;
+    height: 100%;
+}
+.left-menu, .right-menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+}
+.xiaomi-logo{
+    width: 32px;
+}
+.fa-magnifying-glass, .fa-user{
+    font-size: 20px;
+}
 
