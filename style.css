@@ -1,3 +1,115 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+body{
+    height: 10000px;
+}
+a{
+    text-decoration: none;
+    color: initial;
+}
+
+/* MENU */
+
+.menu-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 58px;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.045) ;
+}
+.inner-menu-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1434px;
+    width: 100%;
+    height: 100%;
+}
+.left-menu, .right-menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+}
+.left-menu div{
+    height: 58px;
+    position: relative;
+    width: 94px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -20px;
+}
+.left-menu div:hover{
+    border-bottom: 3px solid #fd4900;
+    padding-top: 3px;
+    color: #fd4900;
+}
+
+.left-menu div a{
+    position: absolute;
+}
+.xiaomi-logo{
+    width: 32px;
+}
+.fa-magnifying-glass, .fa-user{
+    font-size: 20px;
+    cursor: pointer;
+}
+.menu{
+    cursor: pointer;
+}
+input{
+    display:none;
+}
+
+.popup{
+    width: 100%;
+    height: 435px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-top: 61px;
+    display: none;
+}
+.popupMobile{
+    background-color: green;
+}
+.popupWearables{
+    background-color: red;
+}
+.popupSmartHome{
+    background-color: purple;
+}
+.popupLifestyle{
+    background-color: yellow;
+}
+.popupPoco{
+    background-color: blue;
+}
+.first-menu:checked ~ .popupMobile{
+    display: block;
+}
+.second-menu:checked ~ .popupWearables{
+    display: block;
+}
+.third-menu:checked ~ .popupSmartHome{
+    display: block;
+}
+.forth-menu:checked ~ .popupLifestyle{
+    display: block;
+}
+.fifth-menu:checked ~ .popupPoco{
+    display: block;
+}
+
+
 /*
     CODE FOR THE HOVER MENU - There will be 5 menus, each with exact label and menu container height. Width of the label may vary. Width of the container will remain the same.
 
@@ -28,50 +140,4 @@ label{
     
     
 */
-
-
-*{
-    margin: 0;
-    padding: 0;
-    font-family: "Roboto", sans-serif;
-}
-body{
-    height: 10000px;
-}
-a{
-    text-decoration: none;
-    color: initial;
-}
-
-/* MENU */
-
-.menu-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 58px;
-    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.034) ;
-}
-.inner-menu-container{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 1434px;
-    width: 100%;
-    height: 100%;
-}
-.left-menu, .right-menu{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 50px;
-}
-.xiaomi-logo{
-    width: 32px;
-}
-.fa-magnifying-glass, .fa-user{
-    font-size: 20px;
-}
 
