@@ -64,6 +64,16 @@ a{
 .left-menu-branch:hover ~ .menu-blur{
     display: flex;
 }
+.left-menu{
+    height: 100%;
+}
+.left-menu-branch{
+    cursor: pointer;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .branch-one:hover .drop-down-one{
     display: flex;
