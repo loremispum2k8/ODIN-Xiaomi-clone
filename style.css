@@ -369,6 +369,7 @@ a{
 
 .hero-section{
     position: relative;
+    display: flex;
 }
 .hero-section img{
     width: 100%;
@@ -390,9 +391,9 @@ a{
     gap:16px;
 }
 .hero-section-title{
-    font-size: 85px;
+    font-size: 4.5vw;
     font-weight:500;
 }
 .hero-section-title ~ p{
-    font-size: 25px;
+    font-size: 1.3vw;
 }
