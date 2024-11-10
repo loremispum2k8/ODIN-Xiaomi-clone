@@ -1,3 +1,14 @@
+/* 
+
+Contains ( Search using CTRL-F ):
+1) MENU
+2) BLURRED MENU
+3) HERO SECTION
+
+
+*/
+
+
 *{
     margin: 0;
     padding: 0;
@@ -299,7 +310,7 @@ a{
 
 
 
-/* Blurred Menu */
+/* BLURRED MENU */
 
 
 .blurred-menu{
@@ -349,3 +360,6 @@ a{
 .specs{
     color:rgb(156, 156, 156);
 }
+
+
+/* HERO SECTION */
