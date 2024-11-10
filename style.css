@@ -399,4 +399,97 @@ a{
 }
 
 
-/* GRID SECTION */
+/* FLEX SECTION */
+
+
+.flex-section{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 80px;
+}
+.main-group-one, .main-group-two{
+    display:flex;
+    flex-direction: column;
+    gap: 28px;
+    flex-wrap: wrap;
+}
+.two-element-container{
+    display:flex;
+    gap: 28px;
+    height: 470px;
+    width: 750px;
+    box-sizing: border-box;
+}
+.element{
+    border-radius: 20px;
+    position:relative;
+    overflow: hidden;
+}
+.element p{
+    position: absolute;
+    font-weight: 500;
+    font-size: 35px;
+    margin-left: 50px;
+    z-index: 30;
+}
+.element1 img{
+    width: 750px;
+}
+.element2 img{
+    width: 400px;
+    height: 100%;
+}
+.element1 p{
+    padding-top: 160px;
+}
+.element2 p{
+    margin-top: 60px;
+}
+.element3 p{
+    padding-top: 60px;
+}
+.element4 p{
+    margin-top: 100px;
+}
+.element5 p{
+    margin-top: 120px;
+}
+.element6 p{
+    margin-top: 50px;
+}
+.element3 div{
+    width: 330px;
+    height: 100%;
+    background-color: rgb(238, 238, 238);
+    border-radius: 20px;
+}
+.element3 p{
+    margin-top: auto;
+}
+.cunt{
+    object-fit: cover;
+    width: 300px;
+    height: auto;
+    position: absolute;
+    right:0;
+    bottom:0;
+    margin-right: -10px;
+}
+.element4 img{
+    width: 750px;
+}
+.element5 img, .element6 img{
+    width: 460px;
+}
+.element5{
+    height: 782px;
+    margin-top: 50px;
+}
+.element5 img{
+    position: absolute;
+    bottom: 0;
+}
