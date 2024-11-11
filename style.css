@@ -602,3 +602,37 @@ a{
     font-size: var(--text-font);
     font-weight: var(--text-weight);
 }
+
+
+/* STRAPS */
+
+
+.straps-sections{
+    margin-top: 20px;
+    display: flex;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.straps-sections h1{
+    font-size: var(--title-font);
+}
+.straps-sections p{
+    font-size: var(--text-font);
+    font-weight: var(--text-weight);
+    margin-top: 14px;
+}
+.straps-sections div{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    align-items: top;
+    gap:110px;
+    margin-top: -600px;
+    margin-left: 110px;
+}
+.straps-sections img{
+    max-width: 1200px;
+    width: 100%;
+    margin-top: 400px;
+}
