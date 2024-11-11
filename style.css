@@ -636,3 +636,32 @@ a{
     width: 100%;
     margin-top: 400px;
 }
+
+
+/* FACES */
+
+.faces-section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    gap: 120px;
+    margin-top: 220px;
+}
+.faces-section h1{
+    font-size: var(--title-font);
+}
+.faces-section p{
+    font-size: var(--text-font);
+    font-weight: var(--text-weight);
+    margin-top: 14px;
+}
+.faces-section img{
+    width: 100%;
+}
+.faces-section div{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
