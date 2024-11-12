@@ -784,3 +784,26 @@ a{
     margin-left: -180px;
 }
 
+
+/* WIDGETS */
+
+
+.widgets-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    margin-top: 250px;
+}
+.widgets-section div{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.widgets-section img{
+    max-width: 1380px;
+    width: 100%;
+}
