@@ -329,7 +329,7 @@ a{
     font-size: 20px;
     background-color: rgb(255, 255, 255);
     padding: 16px 24px;
-    color:  rgb(151, 151, 151);
+    color:  rgb(255, 255, 255);
     cursor: pointer;
 }
 .first-sign:hover, .second-sign:hover{
@@ -810,11 +810,11 @@ a{
 
 /* BUTTON */
 
-.button-section img{
+.see-more-section img{
     width: 100%;
     margin-top: 100px;
 }
-.button-section div{
+.see-more-section div{
     border: 2px solid rgb(63, 63, 63);
     border-radius: 10px;
     display: flex;
@@ -833,13 +833,27 @@ a{
     margin-top: -250px;
     cursor: pointer;
 }
-.button-section p{
+.see-more-section p{
     font-weight: bold;
     font-size: 24px;
     border-right: 1px solid rgb(63, 63, 63);
     padding-right: 40px;
 }
-.button-section .fa-solid{
+.see-more-section .fa-solid{
     font-size: 20px;
     margin-left: 40px;
+}
+
+/* NOTES */
+
+.notes{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 120px 0px;
+}
+.notes p{
+    color:rgb(73, 73, 73);
+    max-width: 1340px;
 }
