@@ -804,6 +804,42 @@ a{
     gap: 30px;
 }
 .widgets-section img{
-    max-width: 1380px;
+    max-width: 1310px;
     width: 100%;
+}
+
+/* BUTTON */
+
+.button-section img{
+    width: 100%;
+    margin-top: 100px;
+}
+.button-section div{
+    border: 2px solid rgb(63, 63, 63);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: 300px;
+    padding: 0px 40px;
+    height: 60px;
+    color: rgb(63, 63, 63);
+    position: absolute;
+    right: 0;
+    margin-right: 480px;
+    margin-top: -250px;
+    cursor: pointer;
+}
+.button-section p{
+    font-weight: bold;
+    font-size: 24px;
+    border-right: 1px solid rgb(63, 63, 63);
+    padding-right: 40px;
+}
+.button-section .fa-solid{
+    font-size: 20px;
+    margin-left: 40px;
 }
