@@ -759,3 +759,28 @@ a{
     flex-direction: column;
     gap: 30px;
 }
+
+
+/* UNDERWATER */
+
+.water-resistence-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    margin-top: 250px;
+}
+.water-resistence-section div{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.water-resistence-section img{
+    max-width: 1600px;
+    width: 100%;
+    margin-left: -180px;
+}
+
