@@ -737,3 +737,25 @@ a{
     flex-direction: column;
     gap: 90px;
 }
+
+/* WORKOUTS */
+
+.workout-section{
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    margin-left: -70px;
+}
+.workout-section img{
+    max-width: 720px;
+    width: 100%;
+}
+.workout-section div{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
