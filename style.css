@@ -921,7 +921,7 @@ footer{
 .email-group input::-webkit-input-placeholder{
     color: rgb(199, 199, 199);
 }
-.menu-group{
+.menu-group-second{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
